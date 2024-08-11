@@ -17,3 +17,12 @@
 - **Timelock**: `0x97BD38745620387f14e34B3658C316b65da561D1`
 
 [Example `setResponse` Transaction (BlockScout)](https://optimism-sepolia.blockscout.com/tx/0x33e27bdb02f0688e3584cad2b49526837b84d68c98f22ad823d60f2ca208540e)
+
+### Metal Network
+
+- **Checker**: [`0xDeEc6F702b3db25C6B413E8bF2e91fe6179e444c`](https://optimism-sepolia.blockscout.com/address/0xDeEc6F702b3db25C6B413E8bF2e91fe6179e444c)
+- **Governor**: `0xAb563D95Aeb44aA2aa4FD49Bb7915E7C55CdEeB9`
+- **Token**: `0xd3631F0ac03Cbee7FeA3ca472064e469385344d1`
+- **Timelock**: `0x97BD38745620387f14e34B3658C316b65da561D1`
+
+[Example `setResponse` Transaction (BlockScout)](https://testnet.explorer.metall2.com/tx/0xd4d4727aa1d99b38539b73e7a9ba2ec0b0de94177283e60a595c9c06d2929dcd)

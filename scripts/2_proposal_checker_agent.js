@@ -24,17 +24,17 @@ async function main() {
 
   /* Checker */
   const checker = await ethers.getContractAt("Checker",
-    "0x399A52E15f96108CA4Ffe7dabdd2A7E27b156F74"
+    "0xDeEc6F702b3db25C6B413E8bF2e91fe6179e444c"
   );
-  console.log(`Governor: ${await checker.getAddress()}`);
+  console.log(`Checker: ${await checker.getAddress()}`);
 
   /* Governance */
   const governor = await ethers.getContractAt("IGovernor",
-    "0x9bEe222fDb28F6AedcD9ab349f0c9DCAFFae9a97"
+    "0xAb563D95Aeb44aA2aa4FD49Bb7915E7C55CdEeB9"
   );
   console.log(`Governor: ${await governor.getAddress()}`);
 
-  let proposalId = "73233423443999964969326103780500477922335521031608880287856556299884774550668";
+  let proposalId = "37746331935989784777527355319835173876222299405257570199728512702580734313731";
 
   // judging
   let vote = 0;
